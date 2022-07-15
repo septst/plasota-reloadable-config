@@ -6,6 +6,7 @@ WORKDIR /app
 # Core projects
 COPY src/Host/Host.csproj src/Host/
 COPY src/RuntimeLoggingChanges/RuntimeLoggingChanges.csproj src/RuntimeLoggingChanges/
+COPY src/HttpApi/HttpApi.csproj src/HttpApi/
 
 #### Restore the solution
 RUN dotnet restore src/Host

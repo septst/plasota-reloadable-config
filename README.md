@@ -55,7 +55,7 @@ it's [not possible to handle keys containing a dot](https://github.com/dotnet/As
         //   this dot is not possible
         //   outside of JSON provider
         //        ↓
-        "Microsoft.AspnetCore": "Debug",
+        "Microsoft.AspnetCore": "Debug"
         //        ↑
         //       :-(
     }
@@ -63,3 +63,6 @@ it's [not possible to handle keys containing a dot](https://github.com/dotnet/As
 ```
 
 and the same applies to Azure Key Vault provider. Keys can't contain dots in names and no conversion is in place.
+
+# Usefull links
+- [StackOverflow response to a similiar question](https://stackoverflow.com/questions/46569270/asp-net-core-configuration-reloadonchange-with-ioptionssnapshot-still-not-respon/46570073#46570073)
